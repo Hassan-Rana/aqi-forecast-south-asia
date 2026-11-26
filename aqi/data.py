@@ -39,13 +39,19 @@ POLLUTANT_COLUMNS = ["pm2_5", "pm10", "no2", "so2", "co", "o3", "dust"]
 HISTORY_START = date(2022, 8, 5)  # first full day of CAMS data in the Open-Meteo archive
 
 
-def _get(url: str, params: dict, retries: int = 3) -> dict:
+def _get(url: str, params: dict, retries: int = 6) -> dict:
+    """GET with retries on timeouts, connection errors, rate limits and server errors."""
     for attempt in range(retries):
-        r = requests.get(url, params=params, timeout=60)
+        try:
+            r = requests.get(url, params=params, timeout=120)
+        except (requests.Timeout, requests.ConnectionError):
+            time.sleep(5 * (attempt + 1))
+            continue
         if r.status_code == 200:
+            time.sleep(0.5)  # be polite to the free API
             return r.json()
         if r.status_code == 429 or r.status_code >= 500:
-            time.sleep(2 * (attempt + 1))
+            time.sleep(10 * (attempt + 1))
             continue
         raise RuntimeError(f"{url} returned {r.status_code}: {r.text[:300]}")
     raise RuntimeError(f"{url} failed after {retries} attempts")
@@ -65,7 +71,7 @@ def fetch_air_quality(city: City, start: date, end: date) -> pd.DataFrame:
     frames = []
     chunk_start = start
     while chunk_start <= end:
-        chunk_end = min(end, chunk_start + timedelta(days=364))
+        chunk_end = min(end, chunk_start + timedelta(days=181))
         payload = _get(AQ_URL, {"latitude": city.lat, "longitude": city.lon, "hourly": ",".join(AQ_HOURLY),
                                 "timezone": city.timezone, "start_date": chunk_start.isoformat(),
                                 "end_date": chunk_end.isoformat()})
