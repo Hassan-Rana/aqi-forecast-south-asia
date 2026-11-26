@@ -1,0 +1,56 @@
+date,event,kind,countries,lead_days,lag_days,strength
+2022-07-10,Eid al-Adha,sacrifice_bbq,PK|BD|IN,1,2,0.4
+2022-08-14,Independence Day (PK),fireworks,PK,0,1,0.3
+2022-10-05,Dussehra,effigy_burning,IN,0,1,0.4
+2022-10-24,Diwali,fireworks,IN,1,3,1.0
+2022-10-30,Chhath Puja,festival_traffic,IN,1,1,0.3
+2022-12-31,New Year's Eve,fireworks,IN|PK|BD,0,1,0.7
+2023-01-13,Lohri,bonfire,IN|PK,0,1,0.4
+2023-03-07,Holika Dahan,bonfire,IN,0,1,0.4
+2023-03-07,Shab-e-Barat,fireworks,PK|BD|IN,0,1,0.6
+2023-04-22,Eid al-Fitr,festival_traffic,PK|BD|IN,2,1,0.3
+2023-06-29,Eid al-Adha,sacrifice_bbq,PK|BD|IN,1,2,0.4
+2023-08-14,Independence Day (PK),fireworks,PK,0,1,0.3
+2023-10-24,Dussehra,effigy_burning,IN,0,1,0.4
+2023-11-12,Diwali,fireworks,IN,1,3,1.0
+2023-11-19,Chhath Puja,festival_traffic,IN,1,1,0.3
+2023-12-31,New Year's Eve,fireworks,IN|PK|BD,0,1,0.7
+2024-01-13,Lohri,bonfire,IN|PK,0,1,0.4
+2024-02-25,Shab-e-Barat,fireworks,PK|BD|IN,0,1,0.6
+2024-03-24,Holika Dahan,bonfire,IN,0,1,0.4
+2024-04-10,Eid al-Fitr,festival_traffic,PK|BD|IN,2,1,0.3
+2024-06-17,Eid al-Adha,sacrifice_bbq,PK|BD|IN,1,2,0.4
+2024-08-14,Independence Day (PK),fireworks,PK,0,1,0.3
+2024-10-12,Dussehra,effigy_burning,IN,0,1,0.4
+2024-10-31,Diwali,fireworks,IN,1,3,1.0
+2024-11-07,Chhath Puja,festival_traffic,IN,1,1,0.3
+2024-12-31,New Year's Eve,fireworks,IN|PK|BD,0,1,0.7
+2025-01-13,Lohri,bonfire,IN|PK,0,1,0.4
+2025-02-14,Shab-e-Barat,fireworks,PK|BD|IN,0,1,0.6
+2025-03-13,Holika Dahan,bonfire,IN,0,1,0.4
+2025-03-31,Eid al-Fitr,festival_traffic,PK|BD|IN,2,1,0.3
+2025-06-07,Eid al-Adha,sacrifice_bbq,PK|BD|IN,1,2,0.4
+2025-08-14,Independence Day (PK),fireworks,PK,0,1,0.3
+2025-10-02,Dussehra,effigy_burning,IN,0,1,0.4
+2025-10-20,Diwali,fireworks,IN,1,3,1.0
+2025-10-27,Chhath Puja,festival_traffic,IN,1,1,0.3
+2025-12-31,New Year's Eve,fireworks,IN|PK|BD,0,1,0.7
+2026-01-13,Lohri,bonfire,IN|PK,0,1,0.4
+2026-02-03,Shab-e-Barat,fireworks,PK|BD|IN,0,1,0.6
+2026-03-03,Holika Dahan,bonfire,IN,0,1,0.4
+2026-03-20,Eid al-Fitr,festival_traffic,PK|BD|IN,2,1,0.3
+2026-05-27,Eid al-Adha,sacrifice_bbq,PK|BD|IN,1,2,0.4
+2026-08-14,Independence Day (PK),fireworks,PK,0,1,0.3
+2026-10-20,Dussehra,effigy_burning,IN,0,1,0.4
+2026-11-08,Diwali,fireworks,IN,1,3,1.0
+2026-11-15,Chhath Puja,festival_traffic,IN,1,1,0.3
+2026-12-31,New Year's Eve,fireworks,IN|PK|BD,0,1,0.7
+2027-01-13,Lohri,bonfire,IN|PK,0,1,0.4
+2027-01-23,Shab-e-Barat,fireworks,PK|BD|IN,0,1,0.6
+2027-03-10,Eid al-Fitr,festival_traffic,PK|BD|IN,2,1,0.3
+2027-03-21,Holika Dahan,bonfire,IN,0,1,0.4
+2027-05-17,Eid al-Adha,sacrifice_bbq,PK|BD|IN,1,2,0.4
+2027-08-14,Independence Day (PK),fireworks,PK,0,1,0.3
+2027-10-09,Dussehra,effigy_burning,IN,0,1,0.4
+2027-10-29,Diwali,fireworks,IN,1,3,1.0
+2027-11-04,Chhath Puja,festival_traffic,IN,1,1,0.3
