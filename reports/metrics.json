@@ -1,0 +1,282 @@
+{
+  "test_start": "2025-11-20",
+  "test_end": "2026-11-20",
+  "results": {
+    "1": {
+      "overall": {
+        "Model (history + weather + occasions)": {
+          "mae": 21.67214611872146,
+          "rmse": 38.63697096194466,
+          "category_accuracy": 0.7315068493150685,
+          "n": 2190
+        },
+        "Model without occasion features": {
+          "mae": 21.35753424657534,
+          "rmse": 38.044740544588066,
+          "category_accuracy": 0.7273972602739726,
+          "n": 2190
+        },
+        "Persistence (today's AQI)": {
+          "mae": 23.68904109589041,
+          "rmse": 43.0798928614008,
+          "category_accuracy": 0.7022831050228311,
+          "n": 2190
+        },
+        "7-day mean": {
+          "mae": 32.83972602739726,
+          "rmse": 56.93145361712543,
+          "category_accuracy": 0.6255707762557078,
+          "n": 2190
+        }
+      },
+      "event_days": {
+        "Model (history + weather + occasions)": {
+          "mae": 25.9672131147541,
+          "rmse": 41.001799240809014,
+          "category_accuracy": 0.6967213114754098,
+          "n": 122
+        },
+        "Model without occasion features": {
+          "mae": 24.721311475409838,
+          "rmse": 36.94768122008448,
+          "category_accuracy": 0.7377049180327869,
+          "n": 122
+        },
+        "Persistence (today's AQI)": {
+          "mae": 24.229508196721312,
+          "rmse": 37.06087150515097,
+          "category_accuracy": 0.680327868852459,
+          "n": 122
+        },
+        "7-day mean": {
+          "mae": 39.18852459016394,
+          "rmse": 64.20261217299546,
+          "category_accuracy": 0.5819672131147541,
+          "n": 122
+        }
+      },
+      "per_city": {
+        "delhi": {
+          "mae": 55.49041095890411,
+          "rmse": 79.3440919760687,
+          "category_accuracy": 0.5506849315068493,
+          "n": 365
+        },
+        "dhaka": {
+          "mae": 11.64931506849315,
+          "rmse": 16.063231221030033,
+          "category_accuracy": 0.7863013698630137,
+          "n": 365
+        },
+        "karachi": {
+          "mae": 9.32054794520548,
+          "rmse": 13.45494765647032,
+          "category_accuracy": 0.8465753424657534,
+          "n": 365
+        },
+        "kolkata": {
+          "mae": 23.621917808219177,
+          "rmse": 34.677773071601344,
+          "category_accuracy": 0.6904109589041096,
+          "n": 365
+        },
+        "lahore": {
+          "mae": 14.32054794520548,
+          "rmse": 20.241893354509664,
+          "category_accuracy": 0.7178082191780822,
+          "n": 365
+        },
+        "mumbai": {
+          "mae": 15.63013698630137,
+          "rmse": 24.69945371255466,
+          "category_accuracy": 0.7972602739726027,
+          "n": 365
+        }
+      }
+    },
+    "2": {
+      "overall": {
+        "Model (history + weather + occasions)": {
+          "mae": 29.28342490842491,
+          "rmse": 50.315256135689104,
+          "category_accuracy": 0.6263736263736264,
+          "n": 2184
+        },
+        "Model without occasion features": {
+          "mae": 28.432692307692307,
+          "rmse": 48.483159532375346,
+          "category_accuracy": 0.6428571428571429,
+          "n": 2184
+        },
+        "Persistence (today's AQI)": {
+          "mae": 34.46474358974359,
+          "rmse": 59.9784263717933,
+          "category_accuracy": 0.6108058608058609,
+          "n": 2184
+        },
+        "7-day mean": {
+          "mae": 35.92765567765568,
+          "rmse": 62.2363082019496,
+          "category_accuracy": 0.6039377289377289,
+          "n": 2184
+        }
+      },
+      "event_days": {
+        "Model (history + weather + occasions)": {
+          "mae": 40.15573770491803,
+          "rmse": 64.31116722240544,
+          "category_accuracy": 0.5491803278688525,
+          "n": 122
+        },
+        "Model without occasion features": {
+          "mae": 38.4344262295082,
+          "rmse": 60.584110344458374,
+          "category_accuracy": 0.5819672131147541,
+          "n": 122
+        },
+        "Persistence (today's AQI)": {
+          "mae": 39.84426229508197,
+          "rmse": 62.43954453158251,
+          "category_accuracy": 0.5819672131147541,
+          "n": 122
+        },
+        "7-day mean": {
+          "mae": 42.80327868852459,
+          "rmse": 71.09506450325024,
+          "category_accuracy": 0.5819672131147541,
+          "n": 122
+        }
+      },
+      "per_city": {
+        "delhi": {
+          "mae": 70.57967032967034,
+          "rmse": 99.0090044745071,
+          "category_accuracy": 0.46153846153846156,
+          "n": 364
+        },
+        "dhaka": {
+          "mae": 15.25,
+          "rmse": 20.874757352014765,
+          "category_accuracy": 0.6758241758241759,
+          "n": 364
+        },
+        "karachi": {
+          "mae": 11.381868131868131,
+          "rmse": 16.351983446584168,
+          "category_accuracy": 0.7912087912087912,
+          "n": 364
+        },
+        "kolkata": {
+          "mae": 36.379120879120876,
+          "rmse": 52.54673482395781,
+          "category_accuracy": 0.5274725274725275,
+          "n": 364
+        },
+        "lahore": {
+          "mae": 19.167582417582416,
+          "rmse": 25.810648198748524,
+          "category_accuracy": 0.6373626373626373,
+          "n": 364
+        },
+        "mumbai": {
+          "mae": 22.942307692307693,
+          "rmse": 35.44679498523491,
+          "category_accuracy": 0.6648351648351648,
+          "n": 364
+        }
+      }
+    },
+    "3": {
+      "overall": {
+        "Model (history + weather + occasions)": {
+          "mae": 31.566574839302113,
+          "rmse": 53.511144707407944,
+          "category_accuracy": 0.6120293847566575,
+          "n": 2178
+        },
+        "Model without occasion features": {
+          "mae": 31.1267217630854,
+          "rmse": 52.74003676923793,
+          "category_accuracy": 0.6189164370982553,
+          "n": 2178
+        },
+        "Persistence (today's AQI)": {
+          "mae": 39.650137741046834,
+          "rmse": 67.7646497093401,
+          "category_accuracy": 0.578971533516988,
+          "n": 2178
+        },
+        "7-day mean": {
+          "mae": 37.66942148760331,
+          "rmse": 65.10471187099537,
+          "category_accuracy": 0.5844811753902663,
+          "n": 2178
+        }
+      },
+      "event_days": {
+        "Model (history + weather + occasions)": {
+          "mae": 41.90163934426229,
+          "rmse": 64.09790155384619,
+          "category_accuracy": 0.5327868852459017,
+          "n": 122
+        },
+        "Model without occasion features": {
+          "mae": 42.42622950819672,
+          "rmse": 66.9925368977769,
+          "category_accuracy": 0.5327868852459017,
+          "n": 122
+        },
+        "Persistence (today's AQI)": {
+          "mae": 48.450819672131146,
+          "rmse": 77.82709924601572,
+          "category_accuracy": 0.48360655737704916,
+          "n": 122
+        },
+        "7-day mean": {
+          "mae": 44.25409836065574,
+          "rmse": 73.91904078222292,
+          "category_accuracy": 0.6147540983606558,
+          "n": 122
+        }
+      },
+      "per_city": {
+        "delhi": {
+          "mae": 74.12396694214875,
+          "rmse": 102.7228880801995,
+          "category_accuracy": 0.4297520661157025,
+          "n": 363
+        },
+        "dhaka": {
+          "mae": 16.581267217630852,
+          "rmse": 22.369733093572798,
+          "category_accuracy": 0.6887052341597796,
+          "n": 363
+        },
+        "karachi": {
+          "mae": 11.776859504132231,
+          "rmse": 16.250365539436004,
+          "category_accuracy": 0.7961432506887053,
+          "n": 363
+        },
+        "kolkata": {
+          "mae": 41.878787878787875,
+          "rmse": 59.87065949000892,
+          "category_accuracy": 0.5041322314049587,
+          "n": 363
+        },
+        "lahore": {
+          "mae": 19.958677685950413,
+          "rmse": 27.011730948153378,
+          "category_accuracy": 0.6143250688705234,
+          "n": 363
+        },
+        "mumbai": {
+          "mae": 25.079889807162534,
+          "rmse": 39.370739089058674,
+          "category_accuracy": 0.6391184573002755,
+          "n": 363
+        }
+      }
+    }
+  }
+}

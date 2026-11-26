@@ -1,0 +1,44 @@
+event,city,occurrences,median_uplift_pct,mean_event_pm25
+Chhath Puja,delhi,5,38.7,119.0
+Eid al-Adha,kolkata,4,30.1,41.2
+New Year's Eve,lahore,4,18.9,160.7
+Eid al-Adha,dhaka,4,16.8,38.9
+Chhath Puja,mumbai,5,15.2,66.5
+Shab-e-Barat,karachi,4,8.4,43.1
+New Year's Eve,kolkata,4,7.3,120.5
+Holika Dahan,delhi,4,5.2,69.0
+Eid al-Adha,delhi,4,4.5,85.3
+Shab-e-Barat,lahore,4,2.9,72.7
+Eid al-Fitr,karachi,4,2.1,22.5
+New Year's Eve,dhaka,4,0.5,87.3
+Shab-e-Barat,mumbai,4,0.5,73.4
+Diwali,mumbai,5,-1.2,59.4
+Independence Day (PK),lahore,5,-1.2,48.9
+Shab-e-Barat,kolkata,4,-1.6,82.4
+New Year's Eve,delhi,4,-1.9,130.8
+Shab-e-Barat,delhi,4,-2.0,76.6
+Dussehra,mumbai,5,-2.9,42.6
+Lohri,lahore,4,-4.6,142.5
+Eid al-Adha,mumbai,4,-7.1,19.4
+New Year's Eve,mumbai,4,-7.4,64.1
+Lohri,kolkata,4,-8.1,123.7
+Holika Dahan,mumbai,4,-8.4,61.2
+Eid al-Fitr,delhi,4,-8.7,52.2
+Eid al-Fitr,kolkata,4,-9.7,48.3
+Independence Day (PK),karachi,5,-10.4,21.4
+Dussehra,delhi,5,-10.6,59.7
+New Year's Eve,karachi,4,-10.8,39.2
+Eid al-Adha,lahore,4,-10.9,44.0
+Eid al-Fitr,dhaka,4,-11.1,55.0
+Lohri,karachi,4,-11.9,39.9
+Diwali,kolkata,5,-11.9,68.1
+Diwali,delhi,5,-12.3,88.4
+Eid al-Fitr,mumbai,4,-14.1,31.9
+Eid al-Fitr,lahore,4,-15.2,34.7
+Lohri,delhi,4,-16.1,111.2
+Holika Dahan,kolkata,4,-17.1,57.4
+Chhath Puja,kolkata,5,-17.6,89.8
+Lohri,mumbai,4,-18.1,54.4
+Shab-e-Barat,dhaka,4,-19.4,65.6
+Eid al-Adha,karachi,4,-26.9,20.6
+Dussehra,kolkata,5,-61.3,35.2
