@@ -1,24 +1,24 @@
 # Latest forecast
 
-Issued 2026-11-26 11:54 UTC.
+Issued 2026-11-27 10:02 UTC.
 
 | city    | date       |   pm2_5 |   pm10 |   aqi | category                       | scale             | drivers                                                                      |
 |:--------|:-----------|--------:|-------:|------:|:-------------------------------|:------------------|:-----------------------------------------------------------------------------|
-| Delhi   | 2026-11-26 |   127.2 |  123.7 |   306 | Very Poor                      | India NAQI (CPCB) | winter inversion season (smoke trapped near the ground); light wind (6 km/h) |
-| Delhi   | 2026-11-27 |    99.1 |  117.9 |   230 | Poor                           | India NAQI (CPCB) | winter inversion season (smoke trapped near the ground); light wind (4 km/h) |
-| Delhi   | 2026-11-28 |   135   |  128.6 |   312 | Very Poor                      | India NAQI (CPCB) | winter inversion season (smoke trapped near the ground); light wind (4 km/h) |
-| Lahore  | 2026-11-26 |   174.5 |  178.6 |   249 | Very Unhealthy                 | US EPA            | winter inversion season (smoke trapped near the ground); light wind (4 km/h) |
-| Lahore  | 2026-11-27 |   143.1 |  171.2 |   218 | Very Unhealthy                 | US EPA            | winter inversion season (smoke trapped near the ground); light wind (6 km/h) |
-| Lahore  | 2026-11-28 |   146.7 |  163.4 |   221 | Very Unhealthy                 | US EPA            | winter inversion season (smoke trapped near the ground); light wind (3 km/h) |
-| Kolkata | 2026-11-26 |   122.1 |  125.6 |   302 | Very Poor                      | India NAQI (CPCB) | winter inversion season (smoke trapped near the ground); light wind (8 km/h) |
-| Kolkata | 2026-11-27 |   116.2 |  129.7 |   287 | Poor                           | India NAQI (CPCB) | winter inversion season (smoke trapped near the ground); light wind (8 km/h) |
-| Kolkata | 2026-11-28 |   118.6 |  108.3 |   295 | Poor                           | India NAQI (CPCB) | winter inversion season (smoke trapped near the ground); light wind (8 km/h) |
-| Dhaka   | 2026-11-26 |    94.7 |   96.9 |   178 | Unhealthy                      | US EPA            | winter inversion season (smoke trapped near the ground); light wind (7 km/h) |
-| Dhaka   | 2026-11-27 |    82.5 |   82.1 |   169 | Unhealthy                      | US EPA            | winter inversion season (smoke trapped near the ground); light wind (9 km/h) |
-| Dhaka   | 2026-11-28 |    72.3 |   80.3 |   162 | Unhealthy                      | US EPA            | winter inversion season (smoke trapped near the ground); light wind (9 km/h) |
-| Karachi | 2026-11-26 |    31.7 |   41.4 |    93 | Moderate                       | US EPA            |                                                                              |
-| Karachi | 2026-11-27 |    31.2 |   41.8 |    92 | Moderate                       | US EPA            |                                                                              |
-| Karachi | 2026-11-28 |    36.7 |   45.6 |   103 | Unhealthy for Sensitive Groups | US EPA            |                                                                              |
-| Mumbai  | 2026-11-26 |    65.4 |   64.9 |   118 | Moderate                       | India NAQI (CPCB) |                                                                              |
-| Mumbai  | 2026-11-27 |    57.2 |   61.6 |    95 | Satisfactory                   | India NAQI (CPCB) |                                                                              |
-| Mumbai  | 2026-11-28 |    62   |   63   |   107 | Moderate                       | India NAQI (CPCB) |                                                                              |
+| Delhi   | 2026-11-27 |   119.1 |  115.1 |   297 | Poor                           | India NAQI (CPCB) | winter inversion season (smoke trapped near the ground); light wind (4 km/h) |
+| Delhi   | 2026-11-28 |   126.6 |  126   |   305 | Very Poor                      | India NAQI (CPCB) | winter inversion season (smoke trapped near the ground); light wind (4 km/h) |
+| Delhi   | 2026-11-29 |   144.1 |  154.1 |   319 | Very Poor                      | India NAQI (CPCB) | winter inversion season (smoke trapped near the ground); light wind (4 km/h) |
+| Lahore  | 2026-11-27 |   167.2 |  159.3 |   242 | Very Unhealthy                 | US EPA            | winter inversion season (smoke trapped near the ground); light wind (6 km/h) |
+| Lahore  | 2026-11-28 |   149.7 |  163.2 |   224 | Very Unhealthy                 | US EPA            | winter inversion season (smoke trapped near the ground); light wind (4 km/h) |
+| Lahore  | 2026-11-29 |   130.6 |  141.1 |   205 | Very Unhealthy                 | US EPA            | winter inversion season (smoke trapped near the ground); light wind (5 km/h) |
+| Kolkata | 2026-11-27 |   146.6 |  136.1 |   320 | Very Poor                      | India NAQI (CPCB) | winter inversion season (smoke trapped near the ground); light wind (9 km/h) |
+| Kolkata | 2026-11-28 |   132.8 |  128.6 |   310 | Very Poor                      | India NAQI (CPCB) | winter inversion season (smoke trapped near the ground); light wind (7 km/h) |
+| Kolkata | 2026-11-29 |   126.5 |  110.5 |   305 | Very Poor                      | India NAQI (CPCB) | winter inversion season (smoke trapped near the ground); light wind (8 km/h) |
+| Dhaka   | 2026-11-27 |    63   |   67.1 |   155 | Unhealthy                      | US EPA            | winter inversion season (smoke trapped near the ground); light wind (8 km/h) |
+| Dhaka   | 2026-11-28 |    83.3 |   81.3 |   170 | Unhealthy                      | US EPA            | winter inversion season (smoke trapped near the ground); light wind (8 km/h) |
+| Dhaka   | 2026-11-29 |    64.4 |   60.6 |   156 | Unhealthy                      | US EPA            | winter inversion season (smoke trapped near the ground); light wind (8 km/h) |
+| Karachi | 2026-11-27 |    31.4 |   45.1 |    93 | Moderate                       | US EPA            |                                                                              |
+| Karachi | 2026-11-28 |    36.1 |   42.1 |   102 | Unhealthy for Sensitive Groups | US EPA            |                                                                              |
+| Karachi | 2026-11-29 |    35.9 |   41.6 |   101 | Unhealthy for Sensitive Groups | US EPA            |                                                                              |
+| Mumbai  | 2026-11-27 |    64.6 |   70.6 |   115 | Moderate                       | India NAQI (CPCB) |                                                                              |
+| Mumbai  | 2026-11-28 |    72.5 |   67.8 |   142 | Moderate                       | India NAQI (CPCB) |                                                                              |
+| Mumbai  | 2026-11-29 |    59   |   63.3 |    98 | Satisfactory                   | India NAQI (CPCB) |                                                                              |
