@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="AQI South Asia logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14213d"/><stop offset="1" stop-color="#0b1220"/>
+    </linearGradient>
+    <linearGradient id="scale" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34c759"/><stop offset="0.25" stop-color="#d4e157"/>
+      <stop offset="0.45" stop-color="#ffca28"/><stop offset="0.65" stop-color="#ff7043"/>
+      <stop offset="0.82" stop-color="#e53935"/><stop offset="1" stop-color="#8e24aa"/>
+    </linearGradient>
+    <clipPath id="r"><rect width="128" height="128" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="128" height="128" fill="url(#bg)"/>
+    <!-- AQI gauge arc -->
+    <path d="M24 74 A40 40 0 0 1 104 74" fill="none" stroke="url(#scale)" stroke-width="10" stroke-linecap="round"/>
+    <!-- needle pointing into the orange/red band -->
+    <line x1="64" y1="74" x2="88" y2="50" stroke="#f5f5f0" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="64" cy="74" r="7" fill="#f5f5f0"/>
+    <!-- generic skyline: dome, tower, blocks -->
+    <path d="M0 104 V96 H14 V88 H24 V96 H30 V84 Q38 70 46 84 V96 H52 V78 H58 V96 H70 V86 H80 V96 H86 V80 L90 74 L94 80 V96 H104 V90 H116 V96 H128 V104 Z" fill="#33476b"/>
+    <!-- haze -->
+    <path d="M0 104 Q16 98 32 104 T64 104 T96 104 T128 104 V128 H0 Z" fill="#9fb0c8" opacity="0.28"/>
+    <path d="M0 113 Q16 107 32 113 T64 113 T96 113 T128 113 V128 H0 Z" fill="#c9d3e0" opacity="0.35"/>
+    <path d="M10 121 Q26 116 42 121 T74 121 T106 121" fill="none" stroke="#e8edf3" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  </g>
+</svg>
