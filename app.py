@@ -1,6 +1,7 @@
 """Streamlit dashboard:  streamlit run app.py"""
 from __future__ import annotations
 
+import base64
 from pathlib import Path
 
 import pandas as pd
@@ -10,8 +11,31 @@ from aqi.aqi_calc import aqi_array
 from aqi.cities import CITIES
 from aqi.data import load_history
 
-st.set_page_config(page_title="South Asia AQI Forecast", page_icon="🌫️", layout="wide")
-st.title("🌫️ South Asia AQI forecast")
+ASSETS = Path(__file__).parent / "assets"
+ICON = ASSETS / "icon.svg"
+
+try:
+    st.set_page_config(page_title="AQI Forecast · South Asia", page_icon=str(ICON), layout="wide")
+except Exception:  # very old Streamlit, or icon missing
+    st.set_page_config(page_title="AQI Forecast · South Asia", page_icon="🌫️", layout="wide")
+if ICON.exists():
+    try:
+        st.logo(str(ICON), size="large")  # top-left logo (Streamlit >= 1.39)
+    except TypeError:
+        st.logo(str(ICON))  # Streamlit 1.35–1.38: no size option
+    except Exception:
+        pass  # Streamlit < 1.35 has no st.logo; the header below still shows the logo
+    icon_b64 = base64.b64encode(ICON.read_bytes()).decode()
+    st.markdown(
+        f"""<div style="display:flex;align-items:center;gap:18px;margin:0 0 6px">
+        <img src="data:image/svg+xml;base64,{icon_b64}" width="72" height="72" alt="">
+        <div><div style="font-size:2.3rem;font-weight:700;line-height:1.1">AQI<span style="color:#ff7043">·</span>Forecast</div>
+        <div style="letter-spacing:.18em;font-size:.85rem;opacity:.7">SOUTH ASIA · 3-DAY OUTLOOK</div>
+        <div style="height:5px;width:300px;border-radius:3px;margin-top:6px;background:linear-gradient(90deg,
+        #34c759,#d4e157,#ffca28,#ff7043,#e53935,#8e24aa)"></div></div></div>""",
+        unsafe_allow_html=True)
+else:
+    st.title("🌫️ South Asia AQI forecast")
 st.caption("History + weather forecast + festivals and seasons (Diwali, Shab-e-Barat, New Year fireworks, "
            "Lohri bonfires, crop-residue burning, winter inversion) → AQI for today and the next 2 days.")
 

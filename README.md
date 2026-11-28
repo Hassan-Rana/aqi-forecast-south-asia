@@ -1,4 +1,11 @@
-# 🌫️ AQI forecast for South Asia
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
+    <img src="assets/logo.svg" alt="AQI Forecast · South Asia" width="460">
+  </picture>
+</p>
+
+# AQI forecast for South Asia
 
 Forecasts the **Air Quality Index for today and the next two days** in six large cities of the
 Indian subcontinent: **Delhi, Lahore, Kolkata, Dhaka, Karachi and Mumbai**.
